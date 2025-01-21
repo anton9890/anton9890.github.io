@@ -5,7 +5,7 @@ selected:       true
 pub:            "Journal of the Semiconductor & Display Technology"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ''
+pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2024"
 
 abstract: >-
