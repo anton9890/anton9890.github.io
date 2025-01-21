@@ -25,7 +25,7 @@ short_bio: >-
     I'm an M.S. student at <a href="https://www.cau.ac.kr/index.do" target="_blank"> Chung-Ang University</a> specializing in Image/3D Engineering under the mentorship of <a href="https://www.irislab.cau.ac.kr/members/pi" target="_blank"> Prof. Hak Gu Kim</a>.
   </p>
   <p>
-    I received the B.S. degrees in School of Electrical Engineering at Myoungji University, Yongin, Korea, in 2024.
+    Before joining Chung-Ang University, I received the B.S. degrees in School of Electrical Engineering at Myoungji University, Yongin, Korea, in 2024.
   </p>
   <p>
     My research interests include 3D/Image and Video Processing, Computer Vision, Machine Learning and Artificial Intelligence, particularly 3D Reconstruction, Pose Estimation and Multimodal.
@@ -36,27 +36,26 @@ portrait_url: /assets/images/photos/portrait.jpg
 #   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: Chung-Ang University
+  logo: /assets/images/badges/CAU_emblem.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
+    M.S. Student in Graduate School of Advanced Imaging Science, Multimedia & Film (GSAIM)
   date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: Myoungji University
+  logo: /assets/images/badges/5-1.jpg
+  position: B.S. in Electrical Engineering
+  date: Mar. 2018 - Aug. 2024
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Korea Electronics Technology Institute
+  logo: /assets/images/badges/CI-가로타입#1.png
+  position: Research Assitant
+  date: Sep. 2024 - Dec. 2024
 
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+# awards:
+# - name: Award Name 2
+#   date: 2024
+# - name: Award Name 1 
+#   date: 2021
+# - name: A quick brown fox jumps over the lazy dog and runs away award
+#   date: 2021
