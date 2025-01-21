@@ -1,8 +1,8 @@
 ---
-title:          "연속적인 결측치가 포함된 시계열 데이터의 딥러닝 기반 보간에 관한 연구"
+title:          "Thin Film Characterization on Refractive Index of PECVD SiO2 Thin Films"
 date:           2023-11-22 00:01:00 +0800
 selected:       true
-pub:            "한국통신학회회"
+pub:            "Journal of the Semiconductor & Display Technology"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ''
