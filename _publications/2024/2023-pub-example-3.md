@@ -11,7 +11,7 @@ abstract: >-
 authors:
   - Woo Hyuck Kong
   - In Cheon Yoon
-  - Seung Jae Lee
+  - ** Seung Jae Lee **
   - Yun Jeong Choi
   - Sang Jeen Hong
 links:
