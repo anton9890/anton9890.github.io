@@ -15,7 +15,7 @@ authors:
   - Woo Hyuck Kong
   - In Cheon Yoon
   - **Seung Jae Lee**
-  - Yun Jeong Choimd
+  - Yun Jeong Choi
   - Sang Jeen Hong
 links:
   Paper: https://www.koreascience.kr/article/JAKO202320857520350.view?orgId=tkcs&lang=ko
