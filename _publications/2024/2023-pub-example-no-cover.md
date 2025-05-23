@@ -1,7 +1,7 @@
 ---
 title:          "연속적인 결측치가 포함된 시계열 데이터의 딥러닝 기반 보간에 관한 연구"
 date:           2023-11-22 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "한국통신학회 학술대회논문집"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
