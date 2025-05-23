@@ -1,0 +1,17 @@
+---
+layout: null
+---
+{% assign pub_id = page.pub_id %}
+{% assign selected = page.selected %}
+
+{% for pub in site.publications %}
+    {% if pub.id == pub_id %}
+        {% assign pub.selected = selected %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
+{
+    "success": true,
+    "selected": {{ selected }}
+} 

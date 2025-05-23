@@ -9,7 +9,7 @@ pub_date:       "2023"
 authors:
   - Woo Hyuck Kong
   - In Cheon Yoon
-  - Seung Jae Lee
+  - SEUNGJAE Lee
   - Yun Jeong Choi
   - Sang Jeen Hong
 links:

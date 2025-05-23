@@ -9,7 +9,16 @@
             {%- endif -%}
         </div>
         <div class="col-md-9 col-xl-10 p-3 pl-md-0">
-            <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
+            <div class="d-flex justify-content-between align-items-start">
+                <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
+                {% if include.show_select %}
+                <button class="btn btn-link p-0 select-publication {% if item.selected %}selected text-warning{% endif %}" 
+                        data-pub-id="{{ item.id }}" 
+                        title="{% if item.selected %}Remove from selected{% else %}Add to selected{% endif %}">
+                    <i class="fas fa-star"></i>
+                </button>
+                {% endif %}
+            </div>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
@@ -23,7 +32,6 @@
                 {% endif %}
                 {% endfor %}
             </p>
-
         </div>
     </div>
 </div>
@@ -33,7 +41,16 @@
         <div class="d-flex align-items-start flex-column py-3 px-4">
             <div class="mb-auto"></div>
             <div>
-                <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
+                <div class="d-flex justify-content-between align-items-start">
+                    <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
+                    {% if include.show_select %}
+                    <button class="btn btn-link p-0 select-publication {% if item.selected %}selected text-warning{% endif %}" 
+                            data-pub-id="{{ item.id }}" 
+                            title="{% if item.selected %}Remove from selected{% else %}Add to selected{% endif %}">
+                        <i class="fas fa-star"></i>
+                    </button>
+                    {% endif %}
+                </div>
                 <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
                 <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
                 <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
@@ -50,5 +67,4 @@
             </div>
         </div>
     </div>
-
 </div>
